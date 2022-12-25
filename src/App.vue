@@ -1,6 +1,10 @@
 <script setup>
+import Nav from './components/Nav.vue';
 </script>
 
 <template>
-  <h1>Authentication Project</h1>
+  <main>
+    <Nav />
+    <RouterView />
+  </main>
 </template>
